@@ -1,0 +1,166 @@
+$dark-blue: #2947a9;
+$black-color: #14171f;
+$orange-color: #f9995d;
+$bright-black: #292e3d;
+$white-color: #ffffff;
+$active-black: #2c3552;
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+#header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#logo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#logo_img {
+  width: 38px;
+  height: 47.5px;
+  margin-left: 112px;
+}
+#logo_text {
+  margin-left: 14px;
+  color: $dark_blue;
+  width: 111px;
+  height: 35px;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
+}
+#menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.menu_text {
+  color: $black-color;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.link_pages {
+  text-decoration: none;
+}
+.link_pages:hover {
+  color: $orange-color;
+}
+
+#main_page {
+  height: 646px;
+  width: 1440px;
+  background-image: url(../img/bg.png);
+  display: flex;
+}
+
+#mission_text {
+  width: 100%;
+  margin-left: 112px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 84px;
+  display: flex;
+  align-items: center;
+}
+#things_text {
+  color: $bright-black;
+}
+#feature {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+#feature_block {
+  width: 30vw;
+  height: 190px;
+  background-color: $dark-blue;
+}
+#first_title {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: $white-color;
+}
+#second_title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: $white-color;
+}
+#btns {
+  height: 43px;
+  display: flex;
+  justify-content: space-around;
+}
+#back_btn {
+  height: 100%;
+  width: 49.5%;
+  background-color: $bright-black;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+#first_arrow {
+  margin-top: -1px;
+  margin-right: 10px;
+}
+#second_arrow {
+  margin-top: -1px;
+  margin-left: 10px;
+}
+#back_btn:hover {
+  background-color: $active-black;
+}
+#next_btn {
+  height: 100%;
+  width: 49.5%;
+  background-color: $bright-black;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+#next_btn:hover {
+  background-color: $active-black;
+}
+#try {
+  height: 100px;
+}
