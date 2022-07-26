@@ -62,8 +62,9 @@ body {
 
 #main_page {
   height: 646px;
-  width: 1440px;
+  width: 100%;
   background-image: url(../img/bg.png);
+  background-size: cover;
   display: flex;
 }
 
@@ -131,6 +132,7 @@ body {
   font-size: 18px;
   line-height: 21px;
 }
+
 #first_arrow {
   margin-top: -1px;
   margin-right: 10px;
@@ -138,6 +140,9 @@ body {
 #second_arrow {
   margin-top: -1px;
   margin-left: 10px;
+}
+.btn_text {
+  color: $white-color;
 }
 #back_btn:hover {
   background-color: $active-black;
@@ -161,6 +166,48 @@ body {
 #next_btn:hover {
   background-color: $active-black;
 }
-#try {
-  height: 100px;
+#reasons {
+  height: 433px;
+  width: 100%;
+}
+#main_text {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  margin-top: 60px;
+}
+#boxes {
+  display: flex;
+  gap: 65px;
+  justify-content: center;
+}
+.reason_boxes {
+  width: 292px;
+  height: 197px;
+  border: 1.4px solid #e0e3eb;
+  border-radius: 4px;
+}
+.reasons_img {
+  margin-top: 21px;
+  margin-left: 21px;
+}
+.general_title {
+  margin-top: 19px;
+  margin-left: 20px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+}
+.text_reason {
+  margin-top: 18px;
+  margin-left: 20px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
