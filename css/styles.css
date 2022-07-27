@@ -164,8 +164,7 @@ body {
   font-family: Work Sans;
   font-size: 36px;
   font-weight: 700;
-  line-height: 42px;
-  margin-top: 60px; }
+  line-height: 42px; }
 
 #boxes {
   display: flex;
@@ -257,5 +256,88 @@ body {
 
 #frame_btn:hover {
   background-color: #ffffffc7; }
+
+#services {
+  height: 608px;
+  width: 100%;
+  background-color: #f6f8f7; }
+
+#services_text {
+  font-family: Work Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 44px; }
+
+#service_blocks_first {
+  display: flex;
+  justify-content: center;
+  gap: 98px; }
+
+#service_blocks_second {
+  display: flex;
+  justify-content: center;
+  gap: 98px;
+  margin-top: 48px; }
+
+.service_card_w {
+  height: 181px;
+  width: 271px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.w_img {
+  height: 33px;
+  width: 31px;
+  margin-top: 38px;
+  margin-left: auto;
+  margin-right: auto; }
+
+hr {
+  width: 60px;
+  height: 2px;
+  margin-top: 20px;
+  background-color: #e0e3eb; }
+
+.w_text {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #2947a9;
+  margin-top: 20px; }
+
+.b_text {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 20px; }
+
+.service_card_b {
+  height: 181px;
+  width: 271px;
+  border-radius: 4px;
+  background-color: #2947a9;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.b_img {
+  height: 33px;
+  width: 31px;
+  margin-top: 38px;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*# sourceMappingURL=styles.css.map */
