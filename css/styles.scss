@@ -6,6 +6,7 @@ $white-color: #ffffff;
 $active-black: #2c3552;
 $cream-color: #f6f8f7;
 $dark-white: #e0e3eb;
+$active-blue: #224acf;
 body {
   min-height: 100vh;
   margin: 0;
@@ -351,4 +352,208 @@ hr {
   margin-top: 38px;
   margin-left: auto;
   margin-right: auto;
+}
+#stats {
+  height: 723px;
+  width: 100%;
+  display: flex;
+}
+#happy_clients {
+  height: 155px;
+  width: 280px;
+  border-radius: 4px;
+  margin-top: 122px;
+  margin-left: 512px;
+  background-color: $active-black;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 59px;
+}
+#hands_img {
+  height: 97px;
+  width: 97px;
+  position: relative;
+  top: -25px;
+  left: 211px;
+}
+#number_first {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 84px;
+  margin-top: -83px;
+  margin-left: 30px;
+}
+#letter_img {
+  height: 79px;
+  width: 79px;
+  position: relative;
+  left: -39px;
+  top: -48px;
+}
+.inside {
+  display: flex;
+}
+.small_frame {
+  width: 7px;
+  height: 28px;
+  background-color: $orange-color;
+  margin-left: 46px;
+}
+.inside_text {
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0;
+  margin-left: 12px;
+}
+#projects_completed {
+  height: 155px;
+  width: 361px;
+  border-radius: 4px;
+  margin-left: 212px;
+  background-color: $active-black;
+}
+#number_second {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 84px;
+  margin-top: -70px;
+  margin-left: 30px;
+}
+#awards_win {
+  height: 155px;
+  width: 276px;
+  border-radius: 4px;
+  margin-left: 458px;
+  background-color: $active-black;
+  position: relative;
+  top: -18px;
+}
+#number_third {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 84px;
+  margin-top: -85px;
+  margin-left: 30px;
+}
+#award_img {
+  height: 93px;
+  width: 93px;
+  position: relative;
+  left: 204px;
+  top: -15px;
+}
+#years_in_business {
+  height: 155px;
+  width: 333px;
+  border-radius: 4px;
+  margin-top: -62px;
+  margin-left: 261px;
+  background-color: $active-black;
+}
+#map_img {
+  height: 84px;
+  width: 84px;
+  position: relative;
+  left: 288px;
+  top: 100px;
+}
+#number_fourth {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 84px;
+  margin-top: -85px;
+  margin-left: 30px;
+}
+#experience_title {
+  font-family: Work Sans;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  color: $dark-blue;
+  margin-top: 172px;
+  margin-left: 152px;
+}
+
+#experience_text {
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  margin-top: 40px;
+  margin-left: 152px;
+}
+#contact_btn {
+  height: 53px;
+  width: 176px;
+  border-radius: 2px;
+  margin-top: 67px;
+  margin-left: 152px;
+  cursor: pointer;
+  background-color: $dark-blue;
+  color: $white-color;
+}
+#contact_btn:hover {
+  background-color: $active-blue;
+}
+#ads {
+  height: 300px;
+  width: 100%;
+  background-image: url(../img/ads_bg.png);
+  display: flex;
+}
+#ads_title {
+  font-family: Work Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  color: $white-color;
+  margin-top: 100px;
+  margin-left: 112px;
+}
+#ads_text {
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: $white-color;
+  margin-top: 30px;
+  margin-left: 112px;
+}
+#tel {
+  color: $white-color;
+}
+#right_btn {
+  display: flex;
+  align-items: center;
+}
+#get_btn {
+  width: 232px;
+  height: 53px;
+  border: 2px solid #ffffff;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  color: $white-color;
+  margin-left: 202px;
+}
+.try {
+  height: 100px;
 }
