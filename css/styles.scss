@@ -7,6 +7,7 @@ $active-black: #2c3552;
 $cream-color: #f6f8f7;
 $dark-white: #e0e3eb;
 $active-blue: #224acf;
+$active-white: #727272;
 body {
   min-height: 100vh;
   margin: 0;
@@ -135,11 +136,11 @@ body {
   line-height: 21px;
 }
 
-#first_arrow {
+.first_arrow {
   margin-top: -1px;
   margin-right: 10px;
 }
-#second_arrow {
+.second_arrow {
   margin-top: -1px;
   margin-left: 10px;
 }
@@ -362,9 +363,9 @@ hr {
   height: 155px;
   width: 280px;
   border-radius: 4px;
-  margin-top: 122px;
+  margin-top: 65px;
   margin-left: 512px;
-  background-color: $active-black;
+  background-color: $white-color;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -417,7 +418,7 @@ hr {
   width: 361px;
   border-radius: 4px;
   margin-left: 212px;
-  background-color: $active-black;
+  background-color: $white-color;
 }
 #number_second {
   font-family: "Work Sans";
@@ -433,7 +434,7 @@ hr {
   width: 276px;
   border-radius: 4px;
   margin-left: 458px;
-  background-color: $active-black;
+  background-color: $white-color;
   position: relative;
   top: -18px;
 }
@@ -459,7 +460,7 @@ hr {
   border-radius: 4px;
   margin-top: -62px;
   margin-left: 261px;
-  background-color: $active-black;
+  background-color: $white-color;
 }
 #map_img {
   height: 84px;
@@ -494,14 +495,14 @@ hr {
   font-weight: 400;
   line-height: 23px;
   letter-spacing: 0em;
-  margin-top: 40px;
+  margin-top: -40px;
   margin-left: 152px;
 }
 #contact_btn {
   height: 53px;
   width: 176px;
   border-radius: 2px;
-  margin-top: 67px;
+  margin-top: 50px;
   margin-left: 152px;
   cursor: pointer;
   background-color: $dark-blue;
@@ -554,6 +555,139 @@ hr {
   color: $white-color;
   margin-left: 202px;
 }
-.try {
-  height: 100px;
+#get_btn:hover {
+  background-color: $active-white;
+}
+#projects {
+  height: 1098px;
+  display: flex;
+}
+#projects_title {
+  font-family: Work Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 80px;
+  margin-left: 112px;
+}
+#projects_menu {
+  margin-left: 92px;
+}
+#project_cards {
+  display: flex;
+  margin-top: 160px;
+  flex-wrap: wrap;
+}
+#wildstone_block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 265px;
+}
+
+.box_text {
+  width: 384px;
+  height: 84px;
+  background-color: $dark_blue;
+}
+.block_title {
+  color: $white-color;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+.block_text {
+  color: $white-color;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  margin-left: 12px;
+}
+#wish_block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+}
+#parkinston_block {
+  display: flex;
+  flex-direction: column;
+  margin-top: -74px;
+  margin-left: 265px;
+}
+#oregano_block {
+  display: flex;
+  flex-direction: column;
+  margin-top: -74px;
+  margin-left: 32px;
+}
+#projects_btns {
+  display: flex;
+  margin-left: 265px;
+  height: 64px;
+  width: 800px;
+  justify-content: space-between;
+}
+#back_button {
+  height: 63px;
+  width: 295px;
+  background-color: $bright-black;
+  color: $white-color;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+#back_button:hover {
+  background-color: $active-black;
+}
+#circle_parts {
+  height: 63px;
+  width: 144px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+#active_circle {
+  width: 16px;
+  height: 16px;
+}
+.inactive_circle {
+  width: 16px;
+  height: 16px;
+}
+#next_button {
+  height: 63px;
+  width: 295px;
+  background-color: $bright-black;
+  color: $white-color;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+#next_button:hover {
+  background-color: $active-black;
 }
