@@ -8,6 +8,7 @@ $cream-color: #f6f8f7;
 $dark-white: #e0e3eb;
 $active-blue: #224acf;
 $active-white: #727272;
+$grey-color: #c2c7d6;
 body {
   min-height: 100vh;
   margin: 0;
@@ -574,6 +575,7 @@ hr {
 }
 #projects_menu {
   margin-left: 92px;
+  list-style-type: none;
 }
 #project_cards {
   display: flex;
@@ -690,4 +692,20 @@ hr {
 }
 #next_button:hover {
   background-color: $active-black;
+}
+.projects_links {
+  text-decoration: none;
+  color: $grey-color;
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+}
+.projects_links:hover {
+  border-left: 4px solid $dark-blue ;
+  
+  padding-left: 16px;
+  color: $dark-blue;
+   
 }
