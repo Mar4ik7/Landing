@@ -9,16 +9,26 @@
   </head>
   <body>
     <div id="header">
-      <div id="logo">
-        <img id="logo_img" src="./img/logo.png" alt="logo" />
-        <p id="logo_text">TheBox</p>
+      <div class="logo">
+        <img class="logo_img" src="./img/logo.png" alt="logo" />
+        <p class="logo_text">TheBox</p>
       </div>
       <ul id="menu">
-        <li class="menu_text"><a class="link_pages" href="#">Home</a></li>
-        <li class="menu_text"><a class="link_pages" href="#">About Us</a></li>
-        <li class="menu_text"><a class="link_pages" href="#">Projects</a></li>
-        <li class="menu_text"><a class="link_pages" href="#">Services</a></li>
-        <li class="menu_text"><a class="link_pages" href="#">Contact Us</a></li>
+        <li class="menu_text">
+          <a class="link_pages" href="#main_page">Home</a>
+        </li>
+        <li class="menu_text">
+          <a class="link_pages" href="#about_us">About Us</a>
+        </li>
+        <li class="menu_text">
+          <a class="link_pages" href="#projects">Projects</a>
+        </li>
+        <li class="menu_text">
+          <a class="link_pages" href="#services">Services</a>
+        </li>
+        <li class="menu_text">
+          <a class="link_pages" href="#bottom">Contact Us</a>
+        </li>
       </ul>
     </div>
     <div id="main_page">
@@ -227,32 +237,36 @@
         </div>
       </div>
       <div id="project_cards">
-        <div id="wildstone_block">
-          <img src="./img/wildstone.png" alt="wildstone" />
-          <div class="box_text">
-            <p class="block_title">Wildstone Infra Hotel</p>
-            <p class="block_text">2715 Ash Dr. San Jose, South Dakota</p>
+        <div id="first_line_projects">
+          <div id="wildstone_block">
+            <img src="./img/wildstone.png" alt="wildstone" />
+            <div class="box_text">
+              <p class="block_title">Wildstone Infra Hotel</p>
+              <p class="block_text">2715 Ash Dr. San Jose, South Dakota</p>
+            </div>
+          </div>
+          <div id="wish_block">
+            <img src="./img/wish_stone.png" alt="wish_stone" />
+            <div class="box_text">
+              <p class="block_title">Wildstone Infra Hotel</p>
+              <p class="block_text">2715 Ash Dr. San Jose, South Dakota</p>
+            </div>
           </div>
         </div>
-        <div id="wish_block">
-          <img src="./img/wish_stone.png" alt="wish_stone" />
-          <div class="box_text">
-            <p class="block_title">Wildstone Infra Hotel</p>
-            <p class="block_text">2715 Ash Dr. San Jose, South Dakota</p>
+        <div id="second_line_projects">
+          <div id="parkinston_block">
+            <img src="./img/parkinston.png" alt="parkinston" />
+            <div class="box_text">
+              <p class="block_title">Mr. Parkinston’s House</p>
+              <p class="block_text">3517 W. Gray St. Utica, Pennsylvania</p>
+            </div>
           </div>
-        </div>
-        <div id="parkinston_block">
-          <img src="./img/parkinston.png" alt="parkinston" />
-          <div class="box_text">
-            <p class="block_title">Mr. Parkinston’s House</p>
-            <p class="block_text">3517 W. Gray St. Utica, Pennsylvania</p>
-          </div>
-        </div>
-        <div id="oregano_block">
-          <img src="./img/oregano.png" alt="oregano" />
-          <div class="box_text">
-            <p class="block_title">Mr. Parkinston’s House</p>
-            <p class="block_text">3517 W. Gray St. Utica, Pennsylvania</p>
+          <div id="oregano_block">
+            <img src="./img/oregano.png" alt="oregano" />
+            <div class="box_text">
+              <p class="block_title">Mr. Parkinston’s House</p>
+              <p class="block_text">3517 W. Gray St. Utica, Pennsylvania</p>
+            </div>
           </div>
         </div>
         <div id="projects_btns">
@@ -320,7 +334,7 @@
       </div>
       <div id="third_line_inp">
         <textarea
-          placeholder="Reason for Contacting*"
+          placeholder="Message"
           type="text"
           required
           id="message_inp"
@@ -331,6 +345,50 @@
       </div>
       <input type="submit" value="Submit" id="submit_btn" />
       <!--<button id="submit_btn">Submit</button>-->
+    </div>
+    <div id="bottom">
+      <div id="leftcontact">
+        <div id="first_info_text">
+          <p id="first_condition">Address:</p>
+          <p id="first_info">6391 Elgin St. Celina, Delaware 10299</p>
+        </div>
+        <div class="second_info_text">
+          <p class="two_conditions">Phone:</p>
+          <p id="second_info">+84 1102 2703</p>
+        </div>
+        <div class="second_info_text">
+          <p class="two_conditions">Email:</p>
+          <p id="third_info">hello@thebox.com</p>
+        </div>
+        <div class="logo">
+          <img class="logo_img" src="./img/logo.png" alt="logo" />
+          <p class="logo_text">TheBox</p>
+        </div>
+      </div>
+      <div id="right_contact">
+        <p id="newsletter_text">Newsletter:</p>
+        <div id="email_contact">
+          <input type="email" placeholder="Your email here" id="email_inp" />
+          <button id="subs_btn">Subscribe</button>
+        </div>
+        <div>
+          <p id="social_text">Social:</p>
+          <div id="social_sites">
+            <a href="https://www.facebook.com/"
+              ><img src="./img/facebook.png" alt="facebook"
+            /></a>
+            <a href="https://www.linkedin.com/"
+              ><img src="./img/linkedin.png" alt="linkedin"
+            /></a>
+            <a href="https://twitter.com/"
+              ><img src="./img/twitter.png" alt="twitter"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <p>TheBox Company © 2022. All Rights Reserved</p>
     </div>
   </body>
 </html>
