@@ -207,22 +207,24 @@
       </div>
     </div>
     <div id="projects">
-      <div id="menu_table">
-        <p id="projects_title">Projects</p>
-        <ul id="projects_menu">
-          <li class="menu_item">
-            <a class="projects_links" href="#">All</a>
-          </li>
-          <li class="menu_item">
-            <a class="projects_links" href="#">Commercial</a>
-          </li>
-          <li class="menu_item">
-            <a class="projects_links" href="#">Residential</a>
-          </li>
-          <li class="menu_item">
-            <a class="projects_links" href="#">Other</a>
-          </li>
-        </ul>
+      <div id="menu_block">
+        <div id="menu_table">
+          <p id="projects_title">Projects</p>
+          <ul id="projects_menu">
+            <li class="menu_item">
+              <a class="projects_links" href="#">All</a>
+            </li>
+            <li class="menu_item">
+              <a class="projects_links" href="#">Commercial</a>
+            </li>
+            <li class="menu_item">
+              <a class="projects_links" href="#">Residential</a>
+            </li>
+            <li class="menu_item">
+              <a class="projects_links" href="#">Other</a>
+            </li>
+          </ul>
+        </div>
       </div>
       <div id="project_cards">
         <div id="wildstone_block">
@@ -292,5 +294,44 @@
         </div>
       </div>
     </div>
+    <div id="contact_form">
+      <p id="contact_title">What can us do for you?</p>
+      <p id="contact_text">
+        We are ready to work on a project of any complexity, <br />
+        whether it’s commercial or residential.
+      </p>
+      <div id="first_line_inp">
+        <input
+          placeholder="Your Name*"
+          type="text"
+          required
+          class="first_line"
+        />
+        <input placeholder="Email*" type="email" required class="first_line" />
+      </div>
+      <div id="second_line_inp">
+        <input
+          placeholder="Reason for Contacting*"
+          type="text"
+          required
+          id="reason_inp"
+        />
+        <input placeholder="Phone" type="tel" required id="phone_inp" />
+      </div>
+      <div id="third_line_inp">
+        <textarea
+          placeholder="Reason for Contacting*"
+          type="text"
+          required
+          id="message_inp"
+        ></textarea>
+        <p id="text_indicates">
+          <span id="star">*</span> indicates a required field
+        </p>
+      </div>
+      <input type="submit" value="Submit" id="submit_btn" />
+      <!--<button id="submit_btn">Submit</button>-->
+    </div>
   </body>
 </html>
+<span></span>
