@@ -11,6 +11,10 @@ $active-white: #727272;
 $grey-color: #c2c7d6;
 $bright-red: #c40303;
 $active-orange: #e7620f;
+
+html{
+  scroll-behavior: smooth;
+}
 body {
   min-height: 100vh;
   margin: 0;
