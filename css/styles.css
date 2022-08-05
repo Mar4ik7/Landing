@@ -212,9 +212,9 @@ body {
 
 #frame {
   height: 523px;
+  min-width: 410px;
   position: relative;
   right: 170px;
-  width: 488px;
   margin-top: 147px;
   border-radius: 2px;
   background-color: #2947a9; }
@@ -491,7 +491,9 @@ hr {
   margin-left: 152px;
   cursor: pointer;
   background-color: #2947a9;
-  color: #ffffff; }
+  color: #ffffff;
+  border: 0;
+  outline: 0; }
 
 #contact_btn:hover {
   background-color: #224acf; }
@@ -561,7 +563,7 @@ hr {
   max-width: 251px; }
 
 #projects_menu {
-  margin-left: 92px;
+  margin-left: 72px;
   list-style-type: none; }
 
 .projects_links {
@@ -571,7 +573,9 @@ hr {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  line-height: 28px; }
+  line-height: 28px;
+  border-left: 4px solid white;
+  padding-left: 16px; }
 
 .projects_links:hover {
   border-left: 4px solid #2947a9;
@@ -828,6 +832,9 @@ hr {
   border: none;
   outline: none; }
 
+#submit_btn:hover {
+  background-color: #224acf; }
+
 #bottom {
   height: 377px;
   display: flex;
@@ -925,6 +932,9 @@ hr {
   font-weight: 600;
   line-height: 21px;
   letter-spacing: 0em; }
+
+#subs_btn:hover {
+  background-color: #e7620f; }
 
 #social_text {
   margin-top: 42px;
